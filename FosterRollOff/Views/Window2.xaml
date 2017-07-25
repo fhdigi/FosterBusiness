@@ -1,0 +1,106 @@
+﻿<Window x:Class="FosterRollOff.Views.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FosterRollOff.Views"
+        mc:Ignorable="d"
+        Title="Customer Data" Height="400" Width="500">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+
+
+
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Customer Name" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Label Content="Contact Name" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3"/>
+        <Label Content="Tax Rate" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3"/>
+        <Label Content="Home Phone" Grid.Column="6" Grid.ColumnSpan="4"  Grid.RowSpan="1"/>
+        <Label Content="Buisness Phone" Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="3"  Grid.RowSpan="1"/>
+        <GroupBox Content="Billing Information" Grid.Row="4" Grid.ColumnSpan="12" Grid.RowSpan="4"/>
+        <TextBox Grid.Column="3" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="9" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="9" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Label Content="First Name" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="3"/>
+        <Label Content="Address" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="3"/>
+        <Label Content="Last Name" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="3"/>
+        <Label Content="City" Grid.Row="6" Grid.Column="4" />
+        <Label Content="ZIP" Grid.Row="6" Grid.Column="8" Grid.ColumnSpan="1" />
+        <Label Content="State" Grid.Row="5" Grid.Column="8" Grid.ColumnSpan="1"/>
+        <TextBox Grid.Column="5" Grid.Row="6" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="5" Grid.Row="5" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="5" Grid.Row="4" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="9" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="1" />
+        <TextBox Grid.Column="9" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="1" />
+        <TextBox Grid.Column="9" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="1" />
+        <TextBox Grid.Column="9" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="1" />
+        <TextBox Grid.Column="9" Grid.Row="5" Grid.ColumnSpan="2" Grid.RowSpan="1" />
+        <TextBox Grid.Column="4" Grid.Row="8" Grid.ColumnSpan="6" Grid.RowSpan="2"/>
+        <Label Content="Notes" Grid.Column="3" Grid.Row="8" Grid.ColumnSpan="2" Grid.RowSpan="1"/>
+        <CheckBox Content="Send Customer to Collections" Grid.Column="3" Grid.Row="10" Grid.ColumnSpan="7" Grid.RowSpan="1"/>
+        <Label Content="Current Balance" Grid.Column="3" Grid.Row="11" Grid.ColumnSpan="3"/>
+        <TextBox Grid.Column="6" Grid.Row="11" Grid.ColumnSpan="2"  Grid.RowSpan="1"/>
+        <Label Content="As Of" Grid.Row="11" Grid.Column="8" Grid.ColumnSpan="2"/>
+        <DatePicker Grid.Row="11" Grid.Column="10" Grid.ColumnSpan="2"/>
+        <Button Content="Save" Grid.ColumnSpan="2" Grid.Column="12"  Grid.Row="9" Grid.RowSpan="1"/>
+        <Button Content="Cancel" Grid.ColumnSpan="2" Grid.Column="12"  Grid.Row="10" Grid.RowSpan="1"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
+    
